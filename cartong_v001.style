@@ -169,14 +169,15 @@ way         area:highway            text    polygon,nocolumn
 
 # These tags are used by mappers to keep track of data.
 # They aren't very useful for rendering.
-node,way    note                    text    delete
-node,way    note:*                  text    delete
-node,way    source                  text    delete
-node,way    source_ref              text    delete
-node,way    source:*                text    delete
-node,way    attribution             text    delete
-node,way    comment                 text    delete
-node,way    fixme                   text    delete
+# But we want them for debugging, quality insurance...
+# node,way    note                    text    delete
+# node,way    note:*                  text    delete
+# node,way    source                  text    delete
+# node,way    source_ref              text    delete
+# node,way    source:*                text    delete
+# node,way    attribution             text    delete
+# node,way    comment                 text    delete
+# node,way    fixme                   text    delete
 
 # Tags generally dropped by editors, not otherwise covered
 node,way    created_by              text    delete
